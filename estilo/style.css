@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: rgb(0, 0, 0);
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+#head{
+    text-align: center;
+    display: block;   
+    position: relative;
+}
+
+#foto{
+    width: 8rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+}
+
+#nome{
+    text-align: center;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+}
+
+section#rede-sociais{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    text-align: center;
+ 
+}
+
+section#rede-sociais img{
+    width: 50px;
+    margin: 20px;
+    border-radius: 50%; 
+    box-sizing: border-box;  
+    
+}
